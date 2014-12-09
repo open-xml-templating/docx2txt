@@ -1,0 +1,17 @@
+{
+  "name": "docx2txt",
+  "version": "0.1.0",
+  "description": "Convert docx to txt from the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "docx2txt": "./cli.js"
+  },
+  "author": "edi9999",
+  "license": "MIT",
+  "dependencies": {
+    "docxtemplater": "^1.0.0"
+  }
+}
